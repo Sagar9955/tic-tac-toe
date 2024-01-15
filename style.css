@@ -1,1 +1,23 @@
-
+body{
+    background-color: #D1CCDC;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #F5EDF0;
+    color: red;
+    font-size: 60px;
+    border: 1px solid black;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
