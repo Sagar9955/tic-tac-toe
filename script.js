@@ -9,6 +9,7 @@ boxes.forEach((box) => {
         console.log("clicked");
         if (turn0){
             box.innerText="0";
+            box.style.color="violet"
             turn0=false;
         }else{
             box.innerText="X";
